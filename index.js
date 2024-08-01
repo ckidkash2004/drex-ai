@@ -1,9 +1,9 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const autobio = process.env.AUTOBIO || 'TRUE';
+const autobio = process.env.AUTOBIO || 'FALSE';
 let botname = process.env.BOTNAME || '𝐃𝐑𝐄𝐗_𝐀𝐈';
 
-const owner = process.env.DEV || '254102074064'; // This will send a notification once the bot reconnects
+const owner = process.env.DEV || '254799097390'; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
   useMultiFileAuthState,
@@ -169,7 +169,7 @@ async function startHisoka() {
 syncFullHistory: true,
   });
 
-if (autobio === 'TRUE'){ 
+if (autobio === 'FAISE'){ 
             setInterval(() => { 
 
                                  const date = new Date() 
